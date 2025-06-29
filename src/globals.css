@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #F9F6F1;
+  --color-accent: #7AA088;
+  --color-text: #333333;
+}
+
+body {
+  font-family: var(--font-inter, Inter, sans-serif);
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+/* Utility classes for buttons, cards, etc. */
+.btn-soulspring {
+  @apply rounded-full bg-gradient-to-r from-[#7AA088] to-[#a8c3b4] text-white px-6 py-2 shadow-md hover:ring-2 hover:ring-[#7AA088] transition-all duration-200 font-semibold;
+}
+.card-soulspring {
+  @apply rounded-2xl bg-white shadow p-6 border border-[#ece7df];
+} 
