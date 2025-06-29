@@ -20,10 +20,10 @@ type BookingFormFields = {
 export default function BookingForm() {
   const { register, handleSubmit, reset, formState: { errors, isSubmitSuccessful } } = useForm<BookingFormFields>();
 
-  const onSubmit = (data: BookingFormFields) => {
+  const onSubmit = (_data: BookingFormFields) => {
     // For now, just reset and show a message
     reset();
-    alert("Thank you for booking! We'll be in touch soon.");
+    alert("Thank you for booking! We&apos;ll be in touch soon.");
   };
 
   return (
