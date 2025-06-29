@@ -2,9 +2,9 @@
 import HeroSection from "@/components/HeroSection";
 import ServiceCard from "@/components/ServiceCard";
 import TestimonialCard from "@/components/TestimonialCard";
-import BlogPreviewCard from "@/components/BlogPreviewCard";
+// import BlogPreviewCard from "@/components/BlogPreviewCard"; // Not used on homepage preview
 import NewsletterSignup from "@/components/NewsletterSignup";
-import Link from "next/link";
+// import Link from "next/link"; // Not used directly in this page component
 import { motion } from "framer-motion";
 
 export default function Home() {
@@ -22,7 +22,7 @@ export default function Home() {
       >
         <h2 className="text-2xl font-bold mb-2">Meet Your Guide</h2>
         <p className="text-lg text-gray-700">
-          Hi, I'm Paul, a trauma-informed coach and emotional wellness guide. I help individuals rediscover clarity, calm, and purpose through SoulSpring.
+          Hi, I&apos;m Paul, a trauma-informed coach and emotional wellness guide. I help individuals rediscover clarity, calm, and purpose through SoulSpring.
         </p>
       </motion.section>
 

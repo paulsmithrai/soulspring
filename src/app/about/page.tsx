@@ -20,7 +20,7 @@ export default function About() {
       <section className="mb-8">
         <h2 className="text-xl font-semibold mb-2">My Story</h2>
         <p>
-          I'm Paul, founder of SoulSpring. I've created this space for anyone who feels lost, overwhelmed, or emotionally stuck. My style is intuitive, nonjudgmental, and results-focused. I blend coaching with trauma-informed listening to help you reconnect with the strongest parts of yourself.
+          I&apos;m Paul, founder of SoulSpring. I&apos;ve created this space for anyone who feels lost, overwhelmed, or emotionally stuck. My style is intuitive, nonjudgmental, and results-focused. I blend coaching with trauma-informed listening to help you reconnect with the strongest parts of yourself.
         </p>
       </section>
       {/* Philosophy */}
